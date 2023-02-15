@@ -26,9 +26,13 @@ h1 {
   font-weight: 700;
   margin-bottom: 10px;
 }
-
+.form-group .ng-invalid {
+  border: 1px solid red;
+}
+.email-span {
+  color: red;
+}
 .form-group input {
-  border: 2px solid #e6e6e6;
   border-radius: 5px;
   box-sizing: border-box;
   font-size: 16px;
@@ -37,7 +41,6 @@ h1 {
 }
 
 .form-group input:focus {
-  border-color: #007bff;
   outline: none;
 }
 
@@ -81,10 +84,6 @@ h1 {
   font-size: 16px;
   padding: 10px 20px;
   transition: background-color 0.2s;
-}
-
-.button-group button:hover {
-  background-color: #0069d9;
 }
 
 .register-link {

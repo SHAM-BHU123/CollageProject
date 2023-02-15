@@ -11,6 +11,7 @@ import { ServicesComponent } from './services/services.component';
 import { LoginComponent } from './shared/login/login.component';
 import { SignupComponent } from './shared/signup/signup.component';
 import { RegisterComponent } from './shared/register/register.component';
+import { FormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -34,7 +35,7 @@ const appRoutes: Routes = [
     SignupComponent,
     RegisterComponent,
   ],
-  imports: [BrowserModule, RouterModule.forRoot(appRoutes)],
+  imports: [BrowserModule, RouterModule.forRoot(appRoutes), FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
