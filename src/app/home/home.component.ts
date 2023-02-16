@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent {
   constructor() {}
+  images: string = 'src/assets/images/register.png';
 
   onButtonClicked() {
     console.log('Button was clicked in child component');

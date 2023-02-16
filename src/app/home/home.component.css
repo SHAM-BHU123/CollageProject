@@ -1,14 +1,14 @@
 .main-container {
   display: flex;
 
-  gap: 267px;
+  gap: 100px;
   bottom: 10%;
   margin-top: 130px;
 }
-.image {
-  height: 100%;
-  width: 100%;
-  background-color: red;
+img {
+  height: 400px;
+  width: 400px;
+  margin-left: 30px;
 }
 .slogan {
   text-decoration: underline;

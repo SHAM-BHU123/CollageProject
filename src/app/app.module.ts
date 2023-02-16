@@ -19,7 +19,7 @@ const appRoutes: Routes = [
   { path: 'aboutus', component: AboutusComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'signup', component: SignupComponent },
+  { path: 'signup', component: RegisterComponent },
   { path: 'register', component: RegisterComponent },
 ];
 @NgModule({
